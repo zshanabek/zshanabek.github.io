@@ -63,3 +63,15 @@ a::before, a::after {
         letter-spacing: -1px;
     }
 }
+
+@media only screen and (max-width: 390px) {
+    html {
+        font-size: 7.5px;
+    }
+    p {
+        letter-spacing: -0.5px;
+    }
+    a {
+        white-space: normal;
+    }
+}
